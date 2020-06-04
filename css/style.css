@@ -137,6 +137,49 @@ a {
     margin-right: 85px;
 }
 
+.fairy-tail__inner {
+    display: flex;
+}
+
+.fairy-tail__content {
+    width: 50%;
+}
+
+.fairy-tail__container {
+    padding: 0 15px 0 50px;
+}
+
+.fairy-tail__body {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
 .fairy-tail__title span {
     margin-left: 184px;
+}
+
+.fairy-tail__slider {
+    width: 50%;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
 }
