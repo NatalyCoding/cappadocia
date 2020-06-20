@@ -59,6 +59,10 @@ a {
     max-width: 1920px;
 }
 
+ul li {
+    list-style: none;
+}
+
 .title {
     font-size: 96px;
     line-height: 128px;
@@ -190,14 +194,67 @@ a {
     height: 100%;
 }
 
-.fairy-tail__list {
-    list-style: none;
-}
-
 .fairy-tail__body-title {
     font-family: "RobotoCondensed-Regular";
 }
 
 .fairy-tail__text {
     padding: 10px 0;
+}
+
+.our-trip__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.our-trip__slider {
+    width: 50%;
+    margin-left: auto;
+}
+
+.our-trip__inner {
+    position: relative;
+}
+
+.our-trip__title span {
+    margin-left: 270px;
+}
+
+.our-trip__content {
+    width: 50%;
+    padding-right: 55px;
+}
+
+.our-trip__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 1095px;
+    align-items: start;
+}
+
+.our-trip__list {
+    margin: 5px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.our-trip__list li:first-child {
+    font-family: "RobotoCondensed-Regular";
+    margin-bottom: 20px;
+}
+
+.our-trip__btn {
+    font-family: "RobotoCondensed-Light";
+    font-size: 24px;
+    line-height: 28px;
+    border: 1px solid #E2AB3F;
+    padding: 15px 53px 11px;
+    text-transform: uppercase;
 }
